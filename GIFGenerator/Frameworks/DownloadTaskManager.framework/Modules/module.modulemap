@@ -1,0 +1,11 @@
+framework module DownloadTaskManager {
+  umbrella header "DownloadTaskManager.h"
+
+  export *
+  module * { export * }
+}
+
+module DownloadTaskManager.Swift {
+    header "DownloadTaskManager-Swift.h"
+    requires objc
+}
